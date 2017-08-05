@@ -1,0 +1,16 @@
+<!-- HTML 5 doctype -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello dynamic</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/theme.css">
+</head>
+<body>
+    {% if user %}
+      <h1>Hello {{ user }}!</h1>
+    {% else %}
+      <h1>Hello, World!</h1>
+    {% endif %}
+</body>
+</html>
