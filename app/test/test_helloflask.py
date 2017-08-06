@@ -1,11 +1,4 @@
 import pytest
-from app import views
-
-def test_this_method():
-    assert True
-
-def test_failing():
-    assert True
 
 class ExampleClass():
     def __init__(self):
@@ -20,6 +13,3 @@ class TestClass(object):
         x = ExampleClass()
         assert hasattr(x, 'attribute')
         assert x.attribute == "class attribute"
-
-    def test_three(self):
-        assert views.test
